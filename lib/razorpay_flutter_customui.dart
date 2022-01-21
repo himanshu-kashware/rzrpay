@@ -82,7 +82,7 @@ class Razorpay {
     return isValidVpa;
   }
 
-  initilizeSDK(String key) {
+  initializeSDK(String key) {
     _channel.invokeMethod('initilizeSDK', key);
   }
 
